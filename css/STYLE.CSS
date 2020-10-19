@@ -648,12 +648,16 @@ display: block}
 }
 }
 
+@media (max-width: 600px){
+.banner-1-img img  {margin: 0px !important}
+}
+
 
 
 
 footer{
 
-    padding: 5em 0 2em;
+    padding: 5em 0;
     position: relative;
 }
 
@@ -664,14 +668,13 @@ footer{
     
 }
 
-
+.footer-menu{margin-bottom: 20px}
 .footer-menu ul{
 
     padding: 0;
     margin: 0;
     border-right: 1px solid #ccc;
     margin-top: 36px;
-    margin-bottom: 20px;
     padding-right: 45px;
     
 }
@@ -738,7 +741,8 @@ footer{
 }
 
 
-.media-icon img{width: 25px;height: 25px;margin-left: 10px}
+.media-icon img{width: 25px;height: 25px;margin-left: 10px;transition: 0.7s ease}
+.media-icon img:hover{transform: scale(1.1)}
 
 
 .banner-5{
