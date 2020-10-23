@@ -18,7 +18,7 @@ body{
 .stunning-header-bg3 {background-image: url(../img/%D8%B3%D9%84%D8%A7%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA-02.jpg);position: relative}
 .stunning-header-bg4 {background-image: url(../img/%D8%B3%D9%84%D8%A7%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA-05.jpg);position: relative}
 .stunning-header-bg5 {background-image: url(../img/%D8%B3%D9%84%D8%A7%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA-07.jpg);position: relative}
-.stunning-header-bg6 {background-image: url(../img/%D8%B3%D9%84%D8%A7%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA-08.jpg);position: relative}
+.stunning-header-bg6 {background-image: url(../img/872.jpg);position: relative}
 
 
 
@@ -134,6 +134,7 @@ body{
 
 @media (max-width: 768px){
     .slider-content-title{max-width: 545px;margin: 0px auto var(--h-margin-bottom)}
+    .crumina-main-slider .swiper-slide{min-height: 70vh}
     
     
 }
@@ -144,6 +145,8 @@ body{
     .universal-links .link-1{font-size: 14px;}
     .crumina-main-slider .swiper-btn-prev , .crumina-main-slider .swiper-btn-next{display: none}
     .slider-content-title{max-width: inherit;margin: 0px 0px var(--h-margin-bottom)}
+        .crumina-main-slider .swiper-slide{min-height: 65vh}
+
 }
 @media (max-width:420px){
     
@@ -408,7 +411,7 @@ display: block}
 
 @media (max-width:992px){
     .app-download{max-height: none}
-    .app-download-banner{position: relative}
+    .app-download-banner{position: relative;padding-bottom: 1rem}
     .app-download-banner img:first-of-type{
     height: 350px;
 }
@@ -416,7 +419,7 @@ display: block}
     height: 400px;
 }
     
-    .app-download{margin: 5em 0px 7em}
+    .app-download{margin: 4em 0px 7em}
     
 }
 
