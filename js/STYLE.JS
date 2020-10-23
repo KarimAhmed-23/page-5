@@ -20,7 +20,11 @@ $(document).ready(function () {
 
          $(".join-us-content p").matchHeight();
              $(".category-item").matchHeight();
-                 $(".footer-menu ul").matchHeight();
+    
+             $(".footer-menu h5").matchHeight();
+             $(".footer-menu ul").matchHeight();
+
+
 
 
 });
