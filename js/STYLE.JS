@@ -17,6 +17,11 @@
 
 
 $(document).ready(function () {
+	
+			    $(".language").click(function(){
+               $(".dropdown-conutry").slideToggle();
+                   }) ;
+    
 
          $(".join-us-content p").matchHeight();
              $(".category-item").matchHeight();
